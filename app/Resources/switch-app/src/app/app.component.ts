@@ -3,7 +3,6 @@ import {Platform, Nav, AlertController} from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import {TodosPage} from "../pages/todos/todos";
-import {TabsControllerPage} from "../pages/tabs-controller/tabs-controller";
 import {DetailPage} from "../pages/detail/detail";
 
 @Component({

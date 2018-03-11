@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import {AlertController, NavController} from 'ionic-angular';
-import {DetailPage} from "../detail/detail";
+import {NavController} from 'ionic-angular';
 
 @Component({
   selector: 'page-todos',

@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { Todos2Page } from '../todos2/todos2';
-import {TabsControllerPage} from "../tabs-controller/tabs-controller";
 
 @Component({
   selector: 'page-detail2',

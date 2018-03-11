@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import {AlertController, NavController} from 'ionic-angular';
 import {Detail2Page} from "../detail2/detail2";
-import {DetailPage} from "../detail/detail";
 
 @Component({
   selector: 'page-marketplace',
