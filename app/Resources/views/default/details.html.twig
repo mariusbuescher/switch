@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <header class="bar bar-nav">
+        <a href="{{ url('homepage') }}" class="btn btn-link btn-nav pull-left" data-transition="slide-out">
+            <span class="icon icon-left-nav"></span>
+            Back
+        </a>
+        <h1 class="title">Add details</h1>
+    </header>
+
+    <div class="content">
+        <form>
+            <input type="text" placeholder="Title" value="Terminate contract with mobile provider">
+            <input type="date" placeholder="Due date" value="2018-04-01">
+            <textarea rows="5" placeholder="Detailed data goes here"></textarea>
+            <button class="btn btn-positive btn-block">Save details</button>
+        </form>
+    </div>
+{% endblock %}
