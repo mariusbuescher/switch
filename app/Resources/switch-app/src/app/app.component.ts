@@ -13,6 +13,8 @@ export class MyApp {
     rootPage:any = TodosPage;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen, private alertController: AlertController) {
+      splashScreen.show();
+
       const alert = this.alertController.create({
           title: 'Task not fullfilled',
           message: 'Your task "Cancel phone contract" is not done for a week. Should someone else do that for your?',

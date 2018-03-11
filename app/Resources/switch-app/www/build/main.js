@@ -386,6 +386,7 @@ var MyApp = (function () {
         var _this = this;
         this.alertController = alertController;
         this.rootPage = __WEBPACK_IMPORTED_MODULE_4__pages_todos_todos__["a" /* TodosPage */];
+        splashScreen.show();
         var alert = this.alertController.create({
             title: 'Task not fullfilled',
             message: 'Your task "Cancel phone contract" is not done for a week. Should someone else do that for your?',
