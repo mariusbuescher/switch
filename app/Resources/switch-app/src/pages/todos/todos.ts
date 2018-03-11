@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import {AlertController, NavController} from 'ionic-angular';
+import {DetailPage} from "../detail/detail";
 
 @Component({
   selector: 'page-todos',
@@ -9,5 +10,4 @@ export class TodosPage {
 
   constructor(public navCtrl: NavController) {
   }
-  
 }

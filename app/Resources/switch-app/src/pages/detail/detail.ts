@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { Todos2Page } from '../todos2/todos2';
+import {MarketplacePage} from "../marketplace/marketplace";
 
 @Component({
   selector: 'page-detail',
@@ -10,8 +11,8 @@ export class DetailPage {
 
   constructor(public navCtrl: NavController) {
   }
-  goToTodos2(params){
+  goToMarketplace(params){
     if (!params) params = {};
-    this.navCtrl.push(Todos2Page);
+    this.navCtrl.push(MarketplacePage);
   }
 }

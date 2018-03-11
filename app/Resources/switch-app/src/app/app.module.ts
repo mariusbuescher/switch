@@ -10,6 +10,9 @@ import { TabsControllerPage } from '../pages/tabs-controller/tabs-controller';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import {DetailPage} from "../pages/detail/detail";
+import {Todos2Page} from "../pages/todos2/todos2";
+import {Detail2Page} from "../pages/detail2/detail2";
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     SettingsPage,
     MarketplacePage,
     TodosPage,
-    TabsControllerPage
+    TabsControllerPage,
+    DetailPage,
+    Todos2Page,
+    Detail2Page
   ],
   imports: [
     BrowserModule,
@@ -29,7 +35,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     SettingsPage,
     MarketplacePage,
     TodosPage,
-    TabsControllerPage
+    TabsControllerPage,
+    DetailPage,
+    Todos2Page,
+    Detail2Page
   ],
   providers: [
     StatusBar,
