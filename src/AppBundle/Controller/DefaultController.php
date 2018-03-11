@@ -38,9 +38,27 @@ class DefaultController extends Controller
     /**
      * @Route("/details", name="details")
      */
-    public function etailsAction(Request $request)
+    public function detailsAction(Request $request)
     {
         // replace this example code with whatever you need
         return $this->render('default/details.html.twig', []);
+    }
+
+    /**
+     * @Route("/details", name="details")
+     */
+    public function marketPlaceAction(Request $request)
+    {
+        // replace this example code with whatever you need
+        return $this->render('default/marketplace.html.twig', []);
+    }
+
+    /**
+     * @Route("/details", name="details")
+     */
+    public function marketPlaceItemAction(Request $request)
+    {
+        // replace this example code with whatever you need
+        return $this->render('default/marketPlace-item.html.twig', []);
     }
 }
