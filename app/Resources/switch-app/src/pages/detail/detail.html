@@ -4,23 +4,24 @@
       <ion-icon name="menu"></ion-icon>
     </button>
     <ion-title>
-      detail
+      Details
     </ion-title>
   </ion-navbar>
 </ion-header>
 <ion-content padding id="page5">
   <h1 id="detail-heading1" style="color:#000000;">
-    Income tax
+    Cancel phone contract
   </h1>
+  <p>When somebody else should do the task, you need to provide some more information.</p>
   <div id="detail-markdown3" class="show-list-numbers-and-dots">
     <textarea cols="30" rows="10"></textarea>
   </div>
   <button id="detail-button1" ion-button color="balanced" block icon-left on-click="goToMarketplace()">
     <ion-icon name="checkmark-circle"></ion-icon>
-    accept
+    submit
   </button>
-  <button id="detail-button2" ion-button color="positive" block icon-left>
+  <button id="detail-button2" ion-button color="positive" block icon-left (click)="goToRoot()">
     <ion-icon name="close-circle"></ion-icon>
-    nope
+    nope, I do it myself
   </button>
 </ion-content>

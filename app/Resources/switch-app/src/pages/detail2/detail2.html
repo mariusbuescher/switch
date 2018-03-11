@@ -4,7 +4,7 @@
       <ion-icon name="menu"></ion-icon>
     </button>
     <ion-title>
-      detail
+      Detail
     </ion-title>
   </ion-navbar>
 </ion-header>
@@ -28,10 +28,10 @@
   </ion-list>
   <button id="detail-button1" ion-button color="balanced" block icon-left on-click="goToTodos2()">
     <ion-icon name="checkmark-circle"></ion-icon>
-    accept
+    Accept
   </button>
-  <button id="detail-button2" ion-button color="positive" block icon-left>
+  <button id="detail-button2" ion-button color="positive" block icon-left (click)="goBack()">
     <ion-icon name="close-circle"></ion-icon>
-    nope
+    No
   </button>
 </ion-content>

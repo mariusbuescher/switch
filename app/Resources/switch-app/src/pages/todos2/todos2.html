@@ -9,7 +9,7 @@
       </button>
     </ion-buttons>
     <ion-title>
-      todos
+      To-Dos
     </ion-title>
   </ion-navbar>
 </ion-header>
@@ -25,31 +25,19 @@
       <ion-label>
         Laundry
       </ion-label>
-      <ion-checkbox></ion-checkbox>
-    </ion-item>
-    <ion-item id="todos2-checkbox9">
-      <ion-label>
-        Do income tax
-      </ion-label>
-      <ion-checkbox></ion-checkbox>
-    </ion-item>
-    <ion-item id="todos2-checkbox10">
-      <ion-label>
-        groceries
-      </ion-label>
-      <ion-checkbox></ion-checkbox>
+      <ion-checkbox [checked]="true"></ion-checkbox>
     </ion-item>
     <ion-item id="todos2-checkbox11">
       <ion-label>
-        pick holliday
+        Pick holliday
       </ion-label>
-      <ion-checkbox></ion-checkbox>
+      <ion-checkbox [checked]="true"></ion-checkbox>
     </ion-item>
-    <ion-item id="todos2-checkbox12">
+    <ion-item id="todos2-checkbox12" style="opacity: 0.7; background: lightseagreen">
       <ion-label>
-        make cancel phone contract letter
+        Cancel phone contract
       </ion-label>
-      <ion-checkbox></ion-checkbox>
+      <ion-checkbox [disabled]="true"></ion-checkbox>
     </ion-item>
   </ion-list>
 </ion-content>

@@ -16,7 +16,7 @@ export class MyApp {
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen, private alertController: AlertController) {
       const alert = this.alertController.create({
           title: 'Task not fullfilled',
-          message: 'Your task "Do income tax" is not done for a week. Should someone else do that for your?',
+          message: 'Your task "Cancel phone contract" is not done for a week. Should someone else do that for your?',
           buttons: [
               {
                   text: 'Yes',

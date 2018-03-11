@@ -15,4 +15,8 @@ export class DetailPage {
     if (!params) params = {};
     this.navCtrl.push(MarketplacePage);
   }
+
+  goToRoot(params) {
+    this.navCtrl.pop({});
+  }
 }
