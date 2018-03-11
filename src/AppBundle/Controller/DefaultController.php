@@ -45,7 +45,7 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/details", name="details")
+     * @Route("/marketplace", name="details")
      */
     public function marketPlaceAction(Request $request)
     {
@@ -54,7 +54,7 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/details", name="details")
+     * @Route("/marketplace-item", name="details")
      */
     public function marketPlaceItemAction(Request $request)
     {
